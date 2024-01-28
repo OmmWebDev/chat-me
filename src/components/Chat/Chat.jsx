@@ -27,7 +27,7 @@ const Chat = () => {
           ></textarea>
           <button type='submit'>Send</button>
         </form>
-        <div className="wrapper ${isAi && 'ai'}">
+        <div className="wrapper">
           <div className="chat">
             <div className="message">{botReply}</div>
           </div>
